@@ -133,15 +133,11 @@ sha256sum segredo.txt
 
 Foram coletados prints das seguintes telas:
 
-Lista de arquivos deletados
+.img do pendrive carregado no Autopsy
 
-Conteúdo do arquivo segredo.txt
+Arquivo apagado sendo mostrado 
 
-Hash da imagem
-
-Exportação do arquivo recuperado
-
-(Armazenados na pasta prints/)
+Verificação de integridade do arquivo
 
 ✅ Resultados
 
@@ -154,13 +150,3 @@ A integridade da evidência foi garantida por meio de hash SHA-256 da imagem ana
 🧾 Conclusão
 
 Este experimento demonstrou que a exclusão lógica de arquivos em sistemas FAT32 não remove imediatamente os dados do dispositivo, sendo possível recuperá-los por técnicas de forense digital.
-
-📁 Estrutura do Repositório
-usb-forensics-autopsy/
- ├ usb.img
- ├ hash.txt
- ├ README.md
- └ prints/
-⚠️ Aviso
-
-Este projeto tem fins educacionais e não deve ser utilizado para fins ilícitos.
